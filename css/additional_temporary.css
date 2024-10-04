@@ -1,0 +1,499 @@
+/*
+* Direction
+* Default Configuration
+* Font 
+* Header, Body and footer configuration
+* Links
+* Scrollbar 
+* Notification Bubble 
+* Mask 
+* Box Shadow Parameters
+* Button
+* Forms
+* Date Picker
+* Message Display
+* Tabs
+* Virtual Keypad
+* Collapsible section
+* Modal View
+* Download Component
+* Table
+* Step tracker
+* Breadcrumb
+* Print help, Print preview
+* Link delink
+* Password Strength
+* Pagination 
+* Hamburger menu
+* Ticker
+* Widgets
+*/
+/*
+ * This file contains the color palette configuration defined in application
+ * for various colors shades. Any color added in style sheet should be from
+ * this defined set of color palettes only
+ */
+/* 
+ * Get the corresponding hex code for the color
+ * Usage: color("name_of_color", "type_of_color")
+ * Example: $primary-color: color("red", "lighten-2");
+ */
+/* Direction - Used for RTL/LTR support. Not yet implemented.
+ * Possible values are: 
+ * ltr (for Left to Right languages)
+ * rtl (for right to left languages)
+ */
+/* Default Configurations 
+ * Every bank will be associated with a default theme which will be a combination 
+ * of a primary color and a secondary color.
+ */
+/* new theme orange introduced*/
+/* Font - The default font family (Roboto) used in applications are mentioned here.
+ * Recommendation is not to change the font family as application font family has been decided as per 
+ * Google material design recommendation.
+ * Changing font family will have below mentioned impacts:
+ * 	1. font sizes, font weight needs to be redefined across application style sheets as per the new font family.
+ *  2. Any alignment issues due to the font change needs to be taken care.
+ */
+/* icomoon and fontawesome font families are used mostly for icon sets used in application screens */
+/* Application heading related configurations */
+/* Header, Body and footer configurations used in login screens and post login application screens */
+/* Pre-login screens related configuration */
+/* Post login application  screen configuration */
+/* Hyperlink configuration */
+/* Scrollbar configuration 
+ * Some browsers doesn't support changing the native default scrollbars. The below style changes 
+ * might not reflect in such browsers.
+ */
+/* Left hand side and Right hand side vertical and horizontal bar configurations */
+/* Notification Bubble 
+ * Used in header for showing notification count for Alerts, Mails and Mails count in hamburger menu
+ */
+/* Mask - Used mainly as a background for overlay screens to mask user from clicking 
+ * on the background screen components.
+ */
+/* Box Shadow Configuration 
+ * Used to give shadow effects to ovarlays, containers, components, pulldowns. Multiple shadow attributes
+ * are defined which can be used across application screens.
+ */
+/* Buttons
+ * Application buttons fall into below mentioned categories:
+ * 1. Primary Button 
+ * 2. Secondary Button
+ * 3. Flat Button  - should look like a normal text on screen, but actually its a button in backend
+ * 4. Disabled Button - used for displaying disabled(non clickable/read only) buttons
+ * Configuration allows you to change to sharp edges of buttons, color, shadow, case of text etc.
+ * Note: If case of button text is changed, ensure to give proper font-size also to avoid any distortion.
+ */
+/* Form Configurations
+ * Contains form elements:
+ * 1. Input fields.
+ * 2. Labels
+ * 3. Check boxes
+ * 4. Radio buttons
+ * 5. Combo boxes
+ * 6. Text area
+ * 7. Mandatory star *
+ * 8. Place holder
+ */
+/* 
+ * Date Picker configuration
+ * Configuration allows you to customize the date picker styles
+ */
+/* 
+ * Message Display 
+ * Configuration for Success,Error,Warning,Info messages.
+ * Note: All icons used in messages are included as IMAGE using IMG tag
+ */
+/* 
+ * Tabs configuration
+ */
+/* 
+ * Virtual Keypad Configuration
+ */
+/* 
+ * Collapsible section configuration
+ */
+/* 
+ * Modal View configuration 
+ */
+/* 
+ * Download Component configuration 
+ * Defined Download Formats are: Excel, PDF, Text
+ */
+/* 
+ * Listing table configuration
+ */
+/* 
+ * Step tracker configuration
+ */
+/* 
+ * Breadcrumb configuration
+ */
+/* 
+ * Print help, Print preview configuration
+ */
+/* 
+ * Link delink configuration
+ */
+/* 
+ * Password Strength configuration
+ * Below mentioned are the password strength values possible:
+ * 1. too short
+ * 2. weak
+ * 3. fair
+ * 4. strong
+ * 5. very strong
+ * Note: All icons are included as IMAGE using IMG tag
+ */
+/* 
+ * Listing table pagination configuration
+ * Note: Navigation icons are used as IMAGE, not font icons
+ */
+/* 
+ * Hamburger menu configuration
+ */
+/* 
+ * Ticker configuration - Ticker is the live scroll messages 
+ */
+/* 
+ * Widgets configuration
+ */
+/*
+ * This file contains any common $ config params other than the themes/branding related confgurations
+ */
+/*
+ * This file contains the language based directional changes for LTR/RTL languages.
+ * This functionality is not yet integrated into application SCSS. Will be considered when RTL support gets incorporated.
+ */
+/*
+ * This file contains all common functions, mixins which are used across all SCSS files.
+ */
+label.css-labelradio, label.css-labelradio_UX5 {
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.labelColumn_text_brdr_toosmall {
+  width: 76px !important;
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .tableoverflowwrapperhw {
+    overflow: hidden;
+  }
+}
+/*Border issue for the Transaction --Start */
+.ui-dialog .querytextleft_width100percent_withtextalignleft {
+  border: 1px solid #E0E0E0;
+  width: 99.6% !important;
+  /*Added for Service Req issue*/
+}
+
+.ui-dialog .querytextleft_width100percent_withtextalignleft span {
+  border: none;
+}
+
+.ui-dialog .collapsiblePosition {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.ui-dialog .stage3_inputpanel_leftcontainer {
+  border-top: none;
+  border-bottom: none;
+}
+
+.ui-dialog .pageLeftContainer {
+  border-top: none !important;
+}
+
+.ui-dialog .pageLeftContainer .stage3_inputpanel_leftcontainer {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.ui-dialog .width100percent_withmargin {
+  border-bottom: none;
+}
+
+.ui-dialog .bottomBorderShow {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+/*Border issue for the Transaction --End */
+/*Border issue for the Service Request --Start */
+.ui-dialog .listingrow span.querytextleft_width100percent_withtextalignleft {
+  border: none !important;
+}
+
+.ui-dialog .width100percent .querytextleft_withleftBorder_Auth {
+  border-right: 1px solid #E0E0E0;
+  width: 99.85%;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.ui-dialog .listingrow .querytextleft_width100percent_withtextalignleft div.width100percent.querytextleft_withleftBorder_Auth {
+  border-right: none;
+  width: 100%;
+  border-bottom: none;
+}
+
+.servicereqoverlaytopborderissue {
+  border-top: none !important;
+}
+
+/*Border issue for the Service Request --End */
+/* changing labelColumn style for City and State Text and lookup Alignment*/
+.labelColumn {
+  width: 45% !important;
+}
+
+.ui-dialog input.past-datepicker {
+  margin-top: 12px !important;
+}
+
+.ui-dialog .stage3_inputpanel_leftcontainer .stage3_leftrightmainpanel_NoSeparator {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.ui-dialog .pageLeftContainer .stage3_inputpanel_leftcontainer .stage3_leftrightmainpanel_NoSeparator {
+  border-bottom: none !important;
+}
+
+label.css-labelradio {
+  background-image: url(../images/icoChecked.png);
+  -webkit-touch-callout: none;
+}
+
+label.css-labelradio_UX5 {
+  background-image: none;
+  -webkit-touch-callout: none;
+}
+
+/* added by Meghana for removing margin between italic text note content*/
+.nomargindayend {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.footable.breakpoint > tbody > tr:first-child > td.isPullDown.footable-last-column:after {
+  padding-right: 10px;
+  float: right;
+}
+
+.footable.breakpoint > tbody > tr:first-child > td.footable-last-column:after {
+  padding-right: 0px;
+  float: none;
+}
+
+.footable.breakpoint > tbody > tr:first-child.footable-detail-show > td.isPullDown.footable-last-column:after {
+  float: right;
+}
+
+.footable.breakpoint > tbody > tr:first-child.footable-detail-show > td.footable-last-column:after {
+  float: none;
+}
+
+/*Added by Divya for border issue */
+@media screen and (min-width: 480px) and (max-width: 560px) {
+  .pageLeftContainer {
+    width: 99.1% !important;
+  }
+}
+/*session time out Kamlesh*/
+.rightwithmargin {
+  margin-top: -13px;
+}
+
+#sessionPopup {
+  border: 1px solid #000000;
+  background-color: #FFFFFF;
+  font-size: 1em;
+  font-weight: normal;
+  width: 99%;
+  height: 99%;
+}
+
+#sessionPopupTitle {
+  color: #000000;
+  background-color: #E0E0E0;
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: roboto-regular, OpenSans, Arial, Helvetica, sans-serif !important;
+}
+
+.sessionExpiredRow {
+  color: #BF360C;
+  padding: 10px 60px;
+  font-weight: normal;
+  background: url(../images/warning_material.png) no-repeat scroll 15px 0 transparent;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 50px;
+  font-family: roboto-regular, OpenSans, Arial, Helvetica, sans-serif !important;
+}
+
+#sessionPopup tbody tr:hover,
+#sessionPopup tbody tr:hover td {
+  background-color: #FFFFFF !important;
+}
+
+/*Added by Indrajit for tabs style start*/
+.tabButtonStyleActive,
+.tabButtonStyleInactive {
+  margin: auto;
+  display: block;
+  background-color: #FFFFFF !important;
+  height: 18px;
+  box-shadow: none !important;
+  border-radius: 0px;
+  padding: 10px 3px 12px 3px;
+}
+
+.tabButtonStyleActive {
+  border-bottom: 3px solid #0F9CFF;
+  color: #0F9CFF !important;
+}
+
+.tabButtonStyleInactive {
+  color: #9E9E9E !important;
+}
+
+/*Added by Indrajit for tabs style end*/
+/*added by Kamlesh for retail user responsive issue*/
+.paddingrightpulldown {
+  padding-right: 2px;
+  padding-left: 0px;
+}
+
+.stage3_searchsimpletext {
+  color: #212121;
+  font-size: 0.69em;
+  text-decoration: none;
+  float: left;
+  padding-top: 11px;
+  /*next-gen*/
+  padding-right: 5px;
+  padding-left: 10px;
+  /*next-gen*/
+}
+
+/*Added by Divya for border issue */
+.ui-dialog .rightBorder {
+  border-right: 1px solid #E0E0E0 !important;
+  width: 99.8% !important;
+}
+
+@media screen and (min-width: 640px) and (max-width: 900px) {
+  .ui-dialog .rightBorder {
+    width: 99.7% !important;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  .ui-dialog .rightBorder {
+    width: 99.6% !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .ui-dialog .rightBorder {
+    width: 99.5% !important;
+  }
+}
+/*Added by Indrajit*/
+.stage3_grpsummaryaccountsrow {
+  background-color: #FFFFFF;
+}
+
+/*Added by indrajit for doropdown in accounts group start*/
+.groupComboStyle {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+table.tablePadding td {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+
+/*Added by indrajit for doropdown in accounts group end*/
+/*added for tabs*/
+.tabBorderWidth {
+  width: 99.8% !important;
+  border-top: 1px solid #E0E0E0;
+  border-right: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.tabButtonStyleActive .waves-button-input {
+  margin-top: -7px;
+  font-family: roboto-medium, OpenSans, Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+}
+
+.tabButtonStyleInactive .waves-button-input {
+  margin-top: -7px;
+  font-family: roboto-medium, OpenSans, Arial, Helvetica, sans-serif !important;
+  font-size: 16px !important;
+}
+
+/*added for tabs*/
+/*Added by Divya for collapsible icon  issue start */
+@-moz-document url-prefix() {
+  .footable.breakpoint > tbody > tr:first-child > td.footable-last-column:after {
+    float: right;
+    margin-bottom: 4px;
+  }
+
+  .footable.breakpoint > tbody > tr:first-child.footable-detail-show > td.footable-last-column:after {
+    float: right;
+  }
+}
+/*Added by Divya for collapsible icon  issue end */
+/*added for security questions start*/
+.stage3_inputpanel_leftcontainerLogin {
+  background-color: #FFFFFF;
+}
+
+.searchsimpletext_login {
+  font-size: 14px !important;
+}
+
+.regScreen {
+  margin: 0px !important;
+  border: none;
+}
+
+.simpletext_login_security {
+  font-size: 12px;
+  color: #9E9E9E;
+  margin-left: 11px;
+}
+
+.navigationPanel_security {
+  width: 96% !important;
+  background-color: #FFFFFF;
+  margin-left: 2%;
+  margin-bottom: 25px;
+  margin-top: -13px !important;
+  border: 1px solid #E0E0E0;
+}
+
+.sectionPanel_Security {
+  width: 96% !important;
+  margin-left: 2%;
+}
+
+.pgheading_security {
+  padding-bottom: 10px;
+  padding-top: 22px;
+}
+
+/*added for security questions end*/
+
+/*# sourceMappingURL=additional_temporary.css.map */

@@ -1,0 +1,708 @@
+.custom_header #header-logo{
+	background:url("../images/ncb-logo.png") no-repeat scroll left 2px transparent !important;
+	background-size :16%!important;
+	left:20px!important;
+}
+ #header.custom_header{
+	/* background-color: #FFFFFF!important; white background overrides blue one */
+}
+.custom_header #header-row{
+	display:block!important;
+}
+
+.custom_footerCont{
+	float:left;
+	clear:both;
+}
+.custom_footerContent{
+	float:left;
+}
+#PrivacyPolicyfooter,#TermsCondionsfooter{
+	color:#ffffff !important;
+}
+
+.custom_agDisag input[type="submit"].waves-button-input{
+	top:4px !important;
+}
+.custom_buttonsAlign{
+	float:right!important;
+}
+.btn-primary{
+	background-color: #00539b!important;
+}
+.btn-primary:hover{
+background-color: #0069d9!important;
+}
+.footer-bottom{
+	 padding: 20px;
+    color: #fff;
+    background-color: #00539b!important;
+    font-size: 0.8rem;
+}
+.custom_pageLeftContainer{
+	    width: 75%!important;
+    margin-left: 13%!important;
+    margin-bottom: 10%!important;
+    height: 100%!important;
+}
+.custom_sectionContent{
+	    padding: 1.25rem!important;
+}
+
+.custom_formrow:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05)!important;
+    }
+  .custom_formrow{       
+  border-top: 1px solid #E0E0E0; 
+  height:50px; 
+  }
+  .custom_formrow .querytextleft{  
+        text-align: left!Important;
+    vertical-align: top;
+    width:50%!important;
+  }
+  
+  
+ .custom_formrow .simpletext{
+ font-size:1rem!important;
+ color:#212529!important;
+ }
+ 
+ 
+ 
+ .custom_formrow .searchsimpletext{
+ font-size:1rem!important;
+ color:#212529!important;
+ font-weight:bold!important;
+ }
+ 
+ .material .containerStyle input[type='text']{
+	border-bottom:1px solid #969494!important;
+ }
+
+ /* .material .loginPanelSimpleTextStyle.active{
+ 	top:0px!important;
+ } */
+ .custom_textbox .containerStyle input[type=password],.custom_textbox2 .containerStyle input[type=password],.custom_textbox .containerStyle input[type=text],.custom_textbox2 .containerStyle input[type=text]{
+	 border: none!important;
+    border-bottom: 1px solid #E0E0E0!important;
+    border-radius: 0px!important;
+    padding: 0px!important;
+}
+ .custom_textbox :placeholder-shown,.custom_textbox2 :placeholder-shown{
+	text-align:left!important;
+}
+
+.custom_iTag1,.custom_iTag2{
+	position:absolute!important;
+	left:90%!important;
+	
+}
+ .custom_textbox2 .fa-eye-new-password:before{
+	margin-left:0px!important;
+}
+
+.field-icon.custom_iTag1,.field-icon.custom_iTag2{
+	margin-left:0px!important;
+}
+.custom_textbox .fa-eye:before,.custom_textbox .fa-eye-re-new-password:before,.custom_textbox .field-icon-re-new-password,.custom_textbox .fa-eye-slash:before,.custom_textbox2 .fa-eye-slash:before{
+	margin-left:0%!important
+}
+.field-icon-re-new-password.custom_iTag1{
+	margin-top:15px!important;
+}
+
+.custom_buttonText .waves-input-wrapper .waves-button-input{
+	top:4px!important;
+}
+#MessageDisplay_TABLE .width100percent,.errorDisplayStyle .width100percent{
+display:none;
+}
+
+.errorDisplayStyle{
+margin:1%;
+}
+
+.errorContentWrapper.redbg,.errorContentWrapper.orangebg,.errorContentWrapper.bluebg,.errorContentWrapper.greenbg {
+border-radius:5px;
+}
+
+#MessageDisplay_TABLE .errorContentWrapper .errorCodeWrapper{
+top:1px!important;
+}
+
+#widLibWrapper.greenbg {
+margin:1%;
+border-radius:5px;
+}
+ 
+ .section.card-header{
+	flex: 1 1 auto!important;
+	width: 100%!important;
+	padding: 1rem 0rem!important;
+	background: #00539B!important;
+	color: #FFFFFF;
+	font-size: 22px!important;
+	font-weight: 100!important;
+	border-radius: 5px 5px 0 0 !important;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	/* box-sizing: border-box; */
+}
+.section.card-header h1{
+	color:#FFFFFF!important;
+	font-size:22px!important;
+	font-weight:100!important;
+
+}
+.section.card-header .text-sm{
+	color:#FFFFFF!important;
+	font-size:13px!important;
+	font-weight:100!important;
+}
+
+.card-header .custom_passText{
+	margin-left: 2%;
+	    font-size: 22px;
+   
+}
+.card-header .text-sm{
+	margin-left: 2%;
+}
+.custom_beneDetails h3{
+	background: #dfe7ed!important;
+	text-align:center;
+	margin:2%;
+	padding-bottom:11px!important;
+
+}
+.custom_beneDetails .searchsimpletext_sideheading{
+	font-weight:700;
+}
+/* .custom_beneDetails .icon-dropdown.autocomplete-icon{
+	position:absolute;
+	top:15px;
+	right:20px;
+}  */
+.custom_beneDetails .querytextboxmedium_small{
+	width: 64%;
+    padding-right: 0px!important;
+}
+
+.custom_beneDetails .labelColumn_combo_small{
+	 width: 64.67%;
+    padding-right: 0%;
+    margin-left: 0%;
+}
+.custom_beneDetails .labelColumn_combo_brdr_small{
+	 padding-right: 0%;
+}
+.custom_beneDetails .stage3_inputpanel_column{
+	width:33.33%;
+}
+.custom_beneDetails .labelColumn_text_brdr_toosmall{
+	width: 52%!Important;
+    margin-left: 0%;
+}
+.custom_beneDetails .labelcolumntexttoosmall{
+	width:96%;
+}
+.custom_beneDetails .simpletext{
+	float:left;
+	font-size: 16px!important;
+    color: #000000;
+
+}
+.custom_beneDetails .stage3_inputpanel_paydetailsrow{
+	margin-bottom: 1rem!important;
+	margin-left: 2%;
+	width: 98%;
+}
+
+.custom_sectionContent .h3whitetitle.h3whitetitle_pwdscreen{
+      background-color: #00539b!important;
+     margin: 0px !Important;
+    text-align: center;
+        padding-top: 0px !important;
+}
+.custom_sectionContent .collapsible-header{
+  font-size:22px!important;
+}
+
+.custom_outerMostCont{
+	width:100%!important;
+}
+.custom_widthbg{
+	    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+    margin: 2%;
+    border-radius: 5px;
+    width: 96%;
+}
+.custom_pwdFields h3{
+    margin: 0px 0px 20px 10px;
+    border-top:none;
+}
+.custom_pwdFields .h3Font{
+	font-size:18px!important;
+	color: #0a386e;
+}
+.custom_pwdFields .stage3_inputpanel_paydetailsrow {
+    margin: 0px 0px 7px 20px;
+}
+.custom_pwdFields .stage3_inputpanel_column{
+	width:96%!important;
+	text-align:left;
+}
+.fa.fa-chevron-up{
+	font-size:0.875rem!important;
+}
+.fa.fa-chevron-down{
+	font-size:0.875rem!important;
+}
+.text-right{
+	text-align:right;
+}
+.workflow-instructions.active {
+    height: 50%;
+    overflow-y: auto;
+
+}
+
+.workflow-instructions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #e3e3e3;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.custom_helptext{
+	line-height:1.5;
+	display:block;
+}
+.groupletWrapperDiv.rhsResp.custom_rhsCont{
+	display:none!important;
+}
+.custom_pwdFields .buttonhashed{
+	display:none;
+}
+
+ .section.card-header.custom_h1{
+ border-radius:0px!important;
+ }
+ .custom_widthbg .text-md{
+ margin-left:11px;
+ }
+ .custom_widthbg p:nth-child(1){
+	margin-top:15px;
+	
+}
+ .custom_pwdFields .simpletext{
+ color: #212529;
+}
+.tab-navs ul.nav{
+display:flex;
+}
+
+.tab-navs .nav-link {
+    position: relative;
+    font-size: 17px;
+    border-top: 3px solid transparent;
+    border-right: 1px solid #E3E3E3;
+    color: #B7B7B7;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.nav-link {
+    display: block;
+}
+.tab-navs li.nav-item{
+	padding-bottom:0px;
+	cursor:pointer;
+}
+.tab-navs .card-header{
+    background: #00539B;
+    color: #FFFFFF;
+	font-weight:100;
+    padding-left: 40px;
+    padding-right: 40px;
+	    border-radius: 0px!important;
+}
+.card-header-button.btn.btn-no-fill.text-white{
+	font-weight:100;
+	text-transform:capitalize;
+	box-shadow: none;
+}
+
+.width100percent_mleft{
+	width:100%;
+}
+.custom_beneDetails .simpletextField {
+    font-size: 11px!important;
+    color: #B7B7B7;
+ }
+.custom_beneDetails .stage3_inputpanel_column.custom_fieldCol{
+	width:32%;
+	    margin-top: 0px;
+	    text-align: left;
+}
+.custom_beneDetails .stage3_inputpanel_paydetailsrow.custom_fieldRow{
+	    margin-bottom: 0rem!important;
+}
+.card .card-header{
+	background: #00539B!important;
+    color: #FFFFFF;
+    font-size: 22px!important;
+    font-weight: 100!important;
+    border-radius: 5px 5px 0 0 !important;
+    
+}
+.width100percent_mleft .myprofile_profileImage{
+	text-align:center;
+}
+.profileInfo{
+width: 30%; 
+left: 68%;
+ /*  top: 22%; */
+ position:absolute;
+}
+.errorDisplayStyle{
+	    width: 100%;
+    margin-left: auto;
+	
+}
+.parentTable.custom_parentTable{
+	max-width:100%!important;
+}
+.section#BrdCrumbNImg{
+	display:none;
+}
+
+/* [id$=':BrdCrumbNImg']{
+	display:none;
+}*/
+table td .searchsimpletext{
+	word-break:break-all;
+}
+
+.card-bordered .col-5{
+	flex: 0 0 41.666667%;
+	max-width: 41.666667%;
+	
+}
+.card-bordered .col {
+    -webkit-flex-basis: 0;
+    -moz-flex-basis: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-basis: 0;
+    flex-basis: 0;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+}
+.card-bordered .col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.card-bordered .col-5{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ 
+ 
+.card-bordered .custom_rsarowset{
+     
+    border-radius: 5px;
+    height: 46px;
+    background-color: #B7B7B7;
+ display:flex;
+     margin-left: 2%;
+ }
+ 
+.card-bordered #RSA-img{
+
+    margin-top: 7px;
+    height: 30.33px;
+    width: 60px;
+ }
+ 
+ .card-bordered .RSA-line{
+ margin-left: 12px;
+    margin-top: 8px;
+    /* margin-bottom: 8px; */
+    border-left: 2px solid black;
+    height: 30.21px;}
+    
+ .custom_rsatext.card-bordered input[type="password"]{   
+    border-radius: 5px;
+    height: 18px;
+    margin-top: 8px;
+    display: block;
+    width: 88%;
+    background-color: #FFFFFF;
+    padding:0;
+    margin-left:3%;
+ }
+ 
+ .hideDummy{
+ visibility:hidden;
+ }
+ 
+ .custom_setpin .loginPanelColumnDetailStyle{
+ flex:0 0 16.667%;
+ 	width:16.6777%!important;
+ 	padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+ }
+ .custom_setpin input[type=password] {
+    width: 33%;
+}
+.custom_setpin .redstar{
+	color:transparent;
+}
+.custom_buttonRsa .right{
+	margin-right:3%;
+}
+.custom_buttonRsa .btn.btn-primary{
+	    border-radius: 5px!important;
+    height: 30px;
+    line-height: 20px;
+}
+.custom_stage3_inputpanel_leftcontainer{
+	padding-top:2%;
+}
+.error_highlight{
+	font-size:16px!important;
+}
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+.alert {
+    position: relative;
+        margin: 2%;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+  
+}
+.btn
+{text-transform:none!important}
+.custom_h3{
+	padding-left:2%;
+	font-size:22px!important;
+}
+.switch-token{
+	font-size:70px;
+}
+.switch-label{
+	font-size:15px;
+}
+.row.switch-token{
+        margin-bottom: 0px;
+    min-height: 140px;
+    background-color: #FFFFFF;
+    width: 99.85%;
+}
+.row .col{
+width:33%;
+}
+.text-center{
+    text-align:center;
+}
+.custom_rsarowset input[type='password']{
+	font-size:14px!important;
+	color:#000000!important;
+	text-align:left!Important;
+	padding-left:8px!important;
+}
+.loginPanelInputDetailsrow.custom_setpin{
+	padding-bottom:0px;
+}
+.custom_setpin input[type=text] {
+    width: 33%;
+}
+.custom_beneDetails .error_highlight{
+	float:left;
+	margin-left:0px;
+}
+
+.waves-button-input{
+	text-transform:none!important;
+}
+.custom_beneDetails .btn{
+	margin-top:1px;
+}
+.custom_loanAccFields .querytextright_stage3{
+	float:right;
+	width:54%;
+	 margin-top:12px; 
+}
+.custom_rsaor{
+	margin-left:1%;
+	margin-bottom:3px;
+}
+.custom_rsaor .text-sm{
+	color:#212529;
+	font-weight:300;
+}
+.custom_radioButton .simpletext{
+	color:#212529;
+	font-weight:300;
+}
+.custom_rsaor .Login_linkstyle{
+	font-size:13px;
+} 
+.custom_spancheck .span-checkbox{
+	position:absolute;
+}
+.custom_spancheck [type="checkbox"].filled-in:checked + span:after,.custom_spancheck [type="checkbox"].filled-in:not(:checked) + span:after{
+	margin-top:0px!important;
+}
+.custom_spancheck [type="checkbox"].filled-in:checked + span:before{
+	margin-top:0px!important;
+}
+.custom_spancheck .simpletext{
+	margin-left:4%;
+	margin-top:5px;
+}
+
+.custom_quickSearchPop .quick-search-title{
+	font-size:14px!important;
+	width:85px;
+
+}
+.custom_quickSearchPop .search-button-span .btn-brand{
+	min-width:70px;
+}
+.btn.profile_button{
+	border-radius:5px!important;
+	height: 30px;
+}
+.profile_button:hover{
+	color: #fff;
+    background-color: #0069d9!important;
+    border-color: #0062cc!important;
+}
+.profile_button .waves-button-input{
+	top:7px;
+}
+.custom_pwdFields .textboxPasswordChangeHw{
+    width: 100%;
+    display: flex;
+    flex: 0 0 58.33333%;
+}
+
+.custom_pwdFields input[type=password]{
+width:58.33333%;
+}
+.custom_fieldCol.lastNameProf{
+	text-align:left;
+}
+.custom_beneDetails .profileRow{
+	background: #dfe7ed!important;
+	text-align:center;
+	margin:2%;
+	padding-bottom:6px!important;
+	padding-top:6px;
+}
+.fa.fa-edit{
+	font-family: Font Awesome\ 5 Free!important ;
+	font-weight:400;
+	color:#ffc407;
+}
+.custom_profileLink{
+	text-align:center;
+	margin-bottom:10px;
+}
+.custom_profileLink .searchsimpletext_profilelink,.custom_profileLink .bluelink ,.custom_profileLink .custom_fieldCol{
+	float:none!Important;
+}
+.custom_fieldCol .labelCol_text_brdr_number{
+	width:54px;
+}
+.custom_setpin input[type=text].autocomplete-dropdown {
+    width: 98%;
+}
+.custom_setpin input[type=text].loginPanelTextboxMediumStyle {
+    width: 33%;
+}
+.custom_setpin .loginPanellabellinkStyle1{
+	width:36.33%
+}
+.custom_currency .labelColumn_combo_toosmall{
+display:block !important;
+}
+
+.custom_currency .autocomplete-icon:before{
+right:0rem;
+}
+.alert-tokenred {
+    color: #FF0000;
+    left: 275px
+}
+.alert-tokenplain {
+    color: #004085;
+    left: 275px
+   }
+.alert-tokenplainsuccess {
+    color: #004085;
+    left: 425px
+   }
+.alert-tokenplainsuccess1 {
+    color: #004085;
+    left: 475px
+   }
+.alerttoken {
+    position: relative;
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+}
+.fsitLoginPanelSimpleTextStyle {
+    font-size: 16px !important;
+    color: #000000;
+}
+
+
+.fsitLoginPanelColumnDetailStyle {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-left: 31px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 80% !important;
+}
+
+
+
+
+
+
+
+
